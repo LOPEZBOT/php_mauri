@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-size: 18px;
+        }
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        fieldset{
+            width: 47%;
+            padding: 10px;
+        }
+        button{
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 95%;
+            padding: 10px;
+            background-color: gray;
+        }
+        button:hover{
+            cursor: pointer;
+            transform:scale(1.03) ;
+        }
+        input{
+            padding: 5px;
+            border-radius: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="">
+        <fieldset>
+            <legend> Datos Personales</legend>
+            <input type="text" placeholder="Tu nombre" name="nombre" required autofocus/>
+            <input type="text" placeholder="Tu apellido" name="apellido" required /> </p>
+            <label for="">Fecha de Nacimiento</label>
+            <input type="date" name="" id=""/></p>
+            <input type="number" name="" id="" placeholder="Tu edad"></p>
+            <input type="email" name="" id="" placeholder="Tu email"/>
+            <input type="phone" placeholder="Telefono" /></p>
+            <input type="radio" name="sexo" value="H"/><label for="">Hombre</label>
+            <input type="radio" name="sexo" value="M"/><label for="">Mujer</label>
+           </p>
+            <label for="">Ciudad de resistencia</label>
+            <select name="" id="" name="ciudad">
+                <option value="">Asuncion</option>
+                <option value=""> San Lorenzo</option>
+                <option value=""> Fernando De la Mora</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos Laborales</legend>
+            <label for="">Disponibilidad de tiempo</label>
+            </p>
+            <input type="checkbox" value="true" name="dispo_m">Mañana
+            <input type="checkbox" value="true" name="dispo_t">Tarde
+            <input type="checkbox" value="true" name="dispo_n">Noche
+            </p></p>
+            <label for="">Aspiracion Salarial</label>
+        </p>
+          Gs. 2.500.000 <input type="range" min="2500000" max="5500000" step="100000">Gs. 5.500.000
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

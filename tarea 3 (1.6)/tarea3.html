@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .link-secondary{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="me-3 mt-0">
+
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">EMPRESA EJEMPLO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse m-2" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tienda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Redes Sociales
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Facebook</a></li>
+                      <li><a class="dropdown-item" href="#">Instagram</a></li>
+                      <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      </nav>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="empresas_unicornio.webp" class="d-block w-100" height="550px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="portada-empresa.jpg" class="d-block w-100"  height="550px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Empresa-Unsplash.jpg" class="d-block w-100"  height="550px" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 m-4">
+        <div class="col">
+          <div class="card">
+            <img src="empresas_unicornio.webp" class="card-img-top" height="230px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Servicio 1</h5>
+              <p class="card-text"> Descripcion del Servicio</p>
+              <button type="button" class="btn btn-outline-dark">Solicitar Servicio</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="portada-empresa.jpg" class="card-img-top" height="230px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Servicio 2</h5>
+              <p class="card-text">Descripcion del Servicio</p>
+              <button type="button" class="btn btn-outline-dark">Solicitar Servicio</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Empresa-Unsplash.jpg" class="card-img-top" height="230px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Servicio 3</h5>
+              <p class="card-text">Descripcion del Servicio</p>
+              <button type="button" class="btn btn-outline-dark">Solicitar Servicio</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer">
+        <div class="row m-4 justify-content-center">
+            <div class="col-md-5 btn-footer btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Contacta con un vendedor</div></a>
+            <div class="col-md-5 btn-footer btn btn-outline-dark m-1">Contacta con un vendedor</div></a>
+        </div>
+        <div class="row justify-content-space-around">
+            <div class="col-md-4"> <img src="1431098283_691735_1431098420_noticia_normal.jpg" width="150px" alt=""></div>
+            <div class="col-md-4">
+                <p></p>
+            </div>
+            <div class="col-md-4 row-cols-1">
+              <div class="col">  <a class="link-secondary" href="">Conocenos</a></div>
+              <div class="col">  <a class="link-secondary" href="">Contactanos</a></div>
+              <div class="col">  <a class="link-secondary" href="">Testimonios</a></div>
+              <div class="col"> <a class="link-secondary" href=""> Ubicacion</a></div>
+            </div>
+        </div>
+      </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contactar con un vendedor</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vendedor 1</h5>
+                      <p class="card-text"> 0988 888888</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vendedor 2</h5>
+                      <p class="card-text"> 0988 888888</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vendedor 3</h5>
+                      <p class="card-text"> 0988 888888</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

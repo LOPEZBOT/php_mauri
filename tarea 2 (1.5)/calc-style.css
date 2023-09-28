@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 350px;
+    padding-left:500px;
+}
+input{
+    margin: 2px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+    transform:scale(1.2) ;
+}
